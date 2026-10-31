@@ -1,12 +1,24 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git status *)",
-      "Bash(git diff *)",
-      "Bash(git log *)",
-      "Bash(gh issue view *)",
-      "Bash(gh pr view *)",
-      "Bash(gh pr diff *)"
+      "Bash(git:*)",
+      "Bash(gh issue:*)",
+      "Bash(gh pr:*)",
+      "Bash(gh api:*)",
+      "Bash(gh label:*)",
+      "Bash(gh auth status:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(grep:*)",
+      "Bash(wc:*)",
+      "Bash(sort:*)",
+      "Bash(echo:*)",
+      "Bash(sed -n:*)",
+      "Bash(date:*)",
+      "Bash(mkdir:*)",
+      "Bash(printenv:*)"
     ]
   }
 }
